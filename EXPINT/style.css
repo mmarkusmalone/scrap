@@ -172,7 +172,16 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh; 
-    width: auto;
+    width: 100%; /* Ensure the canvas spans the full width */
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center text inside the div */
+    padding-right: 180px; /* Add padding to prevent text from touching the edges */
+    box-sizing: border-box; /* Include padding in the width/height calculation */
+    overflow: hidden; /* Prevent content from spilling out */
+    color: #04042e; /* Text color */
 }
 
 .media_container {
@@ -182,6 +191,7 @@ button {
     margin: 20px;
     margin-top: 60px;
     display: flex;
+    flex-direction: column; /* Stack content vertically */
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full height of the viewport */
@@ -198,6 +208,7 @@ button {
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column; /* Stack content vertically */
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full height of the viewport */
