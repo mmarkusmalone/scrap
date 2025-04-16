@@ -162,12 +162,12 @@ button {
 .right-column {
     flex: 1; /* Take up equal space */
     width: 42.5%;
-    background-image: url("img/home-collage.jpg");
+    background-image: url("../img/home-collage.jpg");
     color:white;
     padding:30px;
 }
 .canvas {
-    background-image: url("img/canvas.png");
+    background-image: url("../img/canvas.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@ button {
 }
 
 .media_container {
-    background-image: url("img/media-select.png");
+    background-image: url("../img/media-select.png");
     background-size: contain;
     background-repeat: no-repeat;
     margin: 20px;
@@ -204,7 +204,7 @@ button {
 
 .media_cutter {
     margin: 20px;
-    background-image: url("img/cutting-board.png");
+    background-image: url("../img/cutting-board.png");
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
